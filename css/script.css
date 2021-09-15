@@ -1,0 +1,153 @@
+All styles element
+  *{
+    width: 100%;
+    height: auto;
+    /* padding-right: 1.2rem;
+    padding-left: 1.2rem; */
+  }
+body{
+    padding: 0;
+    margin: 0rem;
+    overflow-x: hidden;
+    /* width: 100vw; */
+} 
+h1,h2{
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 2rem;
+    padding-left: 2rem;
+    
+}
+p{
+    line-height: 2;
+    
+
+}
+
+td,h3{
+    font-family: "Karla",sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+
+}
+p,a{
+    
+    font-family: "Karla",sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+     padding-right: 20rem;
+    padding-left: 2rem;  
+
+    
+
+}
+li{
+    font-family: "Karla",sans-serif;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+
+}
+
+figure{
+    margin: 2rem auto 4rem;
+}
+figcaption{
+    text-align: center;
+}
+/* classes */
+.image{
+    width : 100%;
+    max-width: 48rem;
+    height: auto;
+}
+
+/* Headline */
+header{
+    background-color:#e5f7f7;
+}
+h1{
+    padding-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: .6rem;
+    color: #213fc8;
+    padding-left: 2rem;
+}
+
+header p, figcaption{
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #3375ed;
+    padding-left: 2rem;
+    padding-bottom: 1.2rem;
+
+}
+/* Intro */
+#intro p a{
+    padding: 0;
+}
+#intro-sec{
+   padding-top:1.2rem ;
+   padding-bottom:1.2rem ;
+    background-color:rgb(204 237 247 / 18rem);
+}
+/* Future */
+#future{
+    background-color: #e6ffff;
+    padding-top:1.2rem ;
+    padding-bottom:1.2rem ;
+}
+/* table */
+table,td{
+    border: 3px solid black;
+    background-color: #a1f5f51c;
+}
+#table{
+    width: 100%;
+    max-width: 45rem;
+    height: auto;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+}
+/* footer */
+footer{
+    background-color: #00ffff29;
+    padding-top:1.2rem ;
+   padding-bottom:1.2rem ;
+   margin-top: 3rem;
+}
+#end{
+    padding-left: 2rem;
+    font-family: "Bad Script";
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+/* option */
+#option {
+    padding-top: 18%;
+    padding-bottom: 5%;
+}
+ /* media querries  */
+ @media (max-width:786px){
+     h1{
+         font-size: 1.5rem;
+     }
+    .fix{
+        padding-right: 1rem;
+    }
+    body{
+        text-align: center;
+        overflow-x: hidden;
+        
+    }
+    header p{
+padding-right: 0;
+    }
+    a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* #table{
+    overflow-x: hidden;
+
+    } */
+    
+} 
